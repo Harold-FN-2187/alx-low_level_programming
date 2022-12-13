@@ -8,17 +8,17 @@
  */
 int main(void)
 {
-    char new, one, two;
+char new, one, two;
 
-    one = 'e';
-    two = 'q';
+one = 'e';
+two = 'q';
 
-    for (new = 'a'; new <= 'z'; new ++)
-    {
+	for (new = 'a'; new <= 'z'; new ++)
+{
         if (new != one &&new != two)
-            putchar(new);
-    }
-    putchar('\n');
+        putchar(new);
+}
+putchar('\n');
 
-    return (0);
+return (0);
 }
