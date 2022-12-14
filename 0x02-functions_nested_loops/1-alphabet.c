@@ -2,7 +2,8 @@
 
 /*
  * main - entry point
- *
+ * 
+ * print_description: made below
  * description: to print all alphabets
  * return: always zero (success)
  */
