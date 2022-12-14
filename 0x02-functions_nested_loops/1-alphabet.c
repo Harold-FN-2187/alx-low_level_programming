@@ -1,9 +1,8 @@
 #include "main.h"
 
 /*
- * main - entry point
- * 
- * print_description: made below
+ * main - entry point 
+ * print_alphabet: description made below
  * description: to print all alphabets
  * return: always zero (success)
  */
