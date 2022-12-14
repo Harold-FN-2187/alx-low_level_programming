@@ -1,10 +1,9 @@
 #include "main.h"
 
-/*
- * print_alphabet - declared in main.h
- *
- * description: to print alphabet in lowercase ten times
- * Return : nothing is returned
+/**
+ * print_alphabet_x10 - chech main.h
+ * Description: print alphabet 10 times
+ * Return: Nothing is returned.
  */
 
 void print_alphaber_x10(void)
