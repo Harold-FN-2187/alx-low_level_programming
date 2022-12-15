@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
-*_isalpha - description below 
-* Desciription: return 1 if c is a letter, lowercase or uppercase
+*c: an input 
+*_isalpha - description below
+* Description: return 1 if c is a letter, lowercase or uppercase
 * Return 0 otherwise
+* Return: 1 or 0 otherwise
 */
 
 int _isalpha(int c)
@@ -13,9 +15,9 @@ int _isalpha(int c)
 	int isLetter = 0;
 	char upper;
 
-	for (lower = 'a'; lower <= 'z';lower++)
+	for (lower = 'a'; lower <= 'z'; lower++)
 	{
-		for (upper='A'; upper <= 'Z'; upper++)
+		for (upper = 'A'; upper <= 'Z'; upper++)
 		{
 			if (c == upper || c == lower)
 				isLetter = 1;

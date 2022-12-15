@@ -2,6 +2,7 @@
 
 /**
  * print_last_digit - Description below
+ * r: an integer input
  * Description: print last digit of a number
  * Return: O always
  */
