@@ -14,7 +14,7 @@ void print_alphaber_x10(void)
 	for (f = 0;f <= 10; f++)
 	{
 		for(t = 'a';t <= 'z'; t++)
-			_putchar(i);
+			_putchar(t);
 		_putchar('\n');
 	}
 }
