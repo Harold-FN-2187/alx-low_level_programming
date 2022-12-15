@@ -5,7 +5,7 @@
  * Description: print last digit of a number
  * Return: O always
  */
- int print_last_digit(int r)
+int print_last_digit(int r)
 {
 	int n;
 
@@ -14,6 +14,6 @@
 	else 
 		n = r % 10;
 
-	_putchar((n % 10 ) + '0');
+	_putchar((n % 10) + '0');
 	return (n % 10);
 } 

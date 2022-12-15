@@ -1,12 +1,13 @@
 #include "main.h"
 
 /*
- * description : To print alphabet in lowercase ten times
+ * is_lower - description below
+ * Description : To print alphabet in lowercase ten times
  * return 1 if lowercase
  * return 2 otherwise
  */
 
-int _isloswer(int c)
+int _islower(int c)
 {
 	char i;
 	int lower = 0;

@@ -1,7 +1,8 @@
-include "main.h"
+#include "main.h"
 
 /**
- * description: Prints sign of a number
+ * print_sign - description below
+ * Description: Prints sign of a number
  * return 1 and print + if n is greater than 0
  * return 0 and prints 0 i n is zero
  * return -1 and prints - if n is less than zero
