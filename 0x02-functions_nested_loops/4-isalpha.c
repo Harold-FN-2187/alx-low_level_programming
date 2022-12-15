@@ -21,5 +21,5 @@ int _isalpha(int c)
 				isLetter = 1;
 		}
 	}
-	return (isletter);
+	return (isLetter);
 }
