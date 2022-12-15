@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* main - entry point 
-* print_alphabet: description made below
-* Description: to print all alphabets
-* Return: always zero (success)
+*main - entry point 
+*print_alphabet: description made below
+*Description: to print all alphabets
+*Return: always zero (success)
 */
 void print_alphabet(void)
 {
