@@ -6,7 +6,7 @@
  * Return: Nothing is returned.
  */
 
-void print_alphaber_x10(void)
+void print_alphabet_x10(void)
 {
 	char t;
 	int f;
