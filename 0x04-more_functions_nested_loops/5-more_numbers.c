@@ -5,7 +5,7 @@
  * Return: 0
  */
 
-void more_numbers()
+void more_numbers(void)
 {
 	int c = 0;
 	int d = 0;
@@ -16,4 +16,9 @@ void more_numbers()
 		{
 			if (c > 9)
 				_putchar(c / 10 + '0');
-			_putchar(
+
+			_putchar(i % 10 + '0');
+		}
+		_putchar('\n');
+	}
+}

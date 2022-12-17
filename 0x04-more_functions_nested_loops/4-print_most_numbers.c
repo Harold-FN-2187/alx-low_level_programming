@@ -10,9 +10,9 @@ void print_most_numbers(void)
 {
 	int h = '0';
 
-	for (; h <= 9; h++)
+	for (; h <= '9'; h++)
 {
-	if (h != 2 && h != 4)
+	if (h != '2' && h != '4')
 		_putchar(i);
 }
 _putchar('\n');
