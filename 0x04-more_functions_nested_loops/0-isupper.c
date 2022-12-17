@@ -7,7 +7,7 @@
  */
 int _isupper(int c)
 {
-	int isuppper = 0;
+	int isupper = 0;
 	char uppercase = 'A';
 
 	for (; uppercase <= 'Z'; uppercase++)
