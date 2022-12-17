@@ -1,4 +1,4 @@
-#inclde "main.h"
+#include "main.h"
 /**
  * more_numbers - Function that prints the number 0 to 14
  * ten times followed by a newline
