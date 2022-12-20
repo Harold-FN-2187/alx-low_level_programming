@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_array - function that prints n elements from an array of integers
  * followed by a newline
