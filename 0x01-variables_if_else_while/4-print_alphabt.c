@@ -13,9 +13,9 @@ char new, one, two;
 one = 'e';
 two = 'q';
 
-	for (new = 'a'; new <= 'z'; new ++)
+	for (new = 'a'; new <= 'z'; new++)
 {
-        if (new != one &&new != two)
+	if (new != one &&new != two)
         putchar(new);
 }
 putchar('\n');
