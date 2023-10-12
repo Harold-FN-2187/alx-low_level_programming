@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
-*print_alphabet: description made below
+*print_alphabet: 
+*
 *Description: To print all alphabets
+*
 *Return: always zero (success)
 */
 void print_alphabet(void)

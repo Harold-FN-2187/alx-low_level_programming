@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*c: an input 
+*c: an input
 *_isalpha - description below
 * Description: return 1 if c is a letter, lowercase or uppercase
 * Return 0 otherwise
