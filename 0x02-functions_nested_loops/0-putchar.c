@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * _putchar - Writes a character to standard output
- * @c : input integer
+ * main - Writes a character to standard output
  * Return: 1 always success
  */
-int _putchar(char c)
+int main(void)
 {
 	_putchar('_');
 _putchar('p');
