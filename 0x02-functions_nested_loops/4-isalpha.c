@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-*c: an input
 *_isalpha - description below
 * Description: return 1 if c is a letter, lowercase or uppercase
 * Return 0 otherwise
+* @c : input integer
 * Return: 1 or 0 otherwise
 */
 

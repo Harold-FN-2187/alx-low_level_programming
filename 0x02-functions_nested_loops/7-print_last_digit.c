@@ -2,7 +2,7 @@
 
 /**
  * print_last_digit - Description below
- * r: an integer input
+ * @r: an integer input
  * Description: print last digit of a number
  * Return: O always
  */
@@ -12,9 +12,9 @@ int print_last_digit(int r)
 
 	if (r < 0)
 		n = -1 * (r % 10);
-	else 
+	else
 		n = r % 10;
 
 	_putchar((n % 10) + '0');
 	return (n % 10);
-} 
+}

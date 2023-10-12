@@ -2,7 +2,7 @@
 
 /**
  * _abs - Description made below
- * r: An integer input
+ * @r: An integer input
  * Description : compute absolute value of and integer
  * Return: Absolute value of r
  */
