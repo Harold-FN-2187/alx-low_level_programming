@@ -1,12 +1,13 @@
 #include <stdio.h>
-/*
- * main - main entry point
+/**
+ * main - prints all single digit numbers
  *
- * Return: Always 0 indicating success
+ * Return: 0 indicating success
  */
 int main(void)
 {
 	int j;
+
 	for (j = 48; j < 58; j++)
 	{
 		putchar(j);
@@ -17,5 +18,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }

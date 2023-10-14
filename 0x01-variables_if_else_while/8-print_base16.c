@@ -1,12 +1,14 @@
 #include <stdio.h>
-/*
- * main - program to print all numbers of base 16 in lowercase
+/**
+ * main - print all numbers in base 16 in lowercase
  *
- * return - alway 0 indicating success
+ * Return: 0 indicating success
  */
+
 int main(void)
 {
 	int p;
+
 	for (p = 48; p < 58; p++)
 	{
 		putchar(p);
