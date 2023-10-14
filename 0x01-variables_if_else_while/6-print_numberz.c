@@ -1,8 +1,7 @@
 #include <stdio.h>
-/*
- * main - Prints single digit numbers of base 10
- *
- * Return:  always 0 indicating success
+/**
+ * main - prints numbers
+ * Return: Always 0 (Sucess)
  */
 int main(void)
 {
