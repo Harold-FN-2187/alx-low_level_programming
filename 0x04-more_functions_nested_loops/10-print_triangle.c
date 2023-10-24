@@ -6,7 +6,7 @@
  * @size: input integer
  * Return: 0
  */
-void print_triangles(int size)
+void print_triangle(int size)
 {
 	int i = 0;
 	int j;
