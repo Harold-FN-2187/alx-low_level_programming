@@ -12,7 +12,7 @@ unsigned int i;
 char *ar;
 
 if (size == 0)
-	return (NULL)
+	return (NULL);
 
 ar = malloc(sizeof(c) * size);
 
