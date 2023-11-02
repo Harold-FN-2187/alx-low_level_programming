@@ -27,7 +27,7 @@ printf("Error\n");
 return (1);
 }
 }
-n += atoi(argv[c]);
+n += atoi(argv[f]);
 }
 printf("%d\n", n);
 return (0);
