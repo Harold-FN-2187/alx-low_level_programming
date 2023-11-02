@@ -20,4 +20,26 @@ if (s1 == NULL)
 	s1 = "";
 if (s2 == NULL)
 	s2 = "";
+while (s1[str1len])
+	str1len++;
+while (s2[str2len])
+	str2len++;
+
+str3len = str1len + str2len;
+
+s3 = malloc(sizeof(char) * str3len + 1);
+if (s3 == NULL)
+	return (NULL);
+while (i < str1len)
+{
+s3[i] = s1[i];
+i++
+}
+while (i <= str3len)
+{
+s3[i] = s2[j]
+i++;
+j++;
+}
+return (s3);
 }
