@@ -33,11 +33,11 @@ if (s3 == NULL)
 while (i < str1len)
 {
 s3[i] = s1[i];
-i++
+i++;
 }
 while (i <= str3len)
 {
-s3[i] = s2[j]
+s3[i] = s2[j];
 i++;
 j++;
 }
