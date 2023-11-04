@@ -13,7 +13,7 @@ unsigned int i;
 if (size == 0 || nmemb == 0)
 	return (NULL);
 
-ar = malloc(size * nmemb)
+ar = malloc(size * nmemb);
 if (ar == NULL)
 	return (NULL);
 
