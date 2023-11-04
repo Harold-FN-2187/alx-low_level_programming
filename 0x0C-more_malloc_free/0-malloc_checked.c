@@ -13,5 +13,5 @@ unsigned int *j;
 j = malloc(b);
 if (j == NULL)
 	exit(98);
-return (i);
+return (j);
 }
