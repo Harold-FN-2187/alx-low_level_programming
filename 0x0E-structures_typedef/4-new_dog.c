@@ -53,7 +53,8 @@ if (!ncpy && name)
 free(new);
 return (NULL);
 }
-ocpy = _strdup(owner)
+
+ocpy = _strdup(owner);
 if (!ocpy && owner)
 {
 free(ncpy);
