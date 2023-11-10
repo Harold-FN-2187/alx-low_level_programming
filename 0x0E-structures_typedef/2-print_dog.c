@@ -23,4 +23,6 @@ if (d->owner)
 else
 	printf("Owner: (nil)\n");
 }
+else
+	return;
 }
