@@ -6,17 +6,18 @@
  * @h: singly linked list
  * Return: Number of nodes
  */
+
 size_t print_list(const list_t *h)
 {
-int counter = 0;
-while (h)
-{
-if (h->str == NULL)
-printf("[0] (nil)\n");
-else
-printf("[%i] %s\n", h->len, h->str);
-h = h->next;
-counter++;
-}
-return (counter);
+	size_t nbr_nodes = 0;
+	const list_t *current = h;
+
+	while (current != NULL)
+	{
+		printf("[%d] %s\n", current->len,
+		current->str != NULL ? current->str : "(nil)");
+		current = current->next;
+		nbr_nodes++;
+	}
+	return (nbr_nodes);
 }
