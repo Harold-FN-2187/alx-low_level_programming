@@ -14,7 +14,7 @@ const list_t *current = h;
 while (current != NULL)
 {
 current = current->next;
-num_element++
+num_element++;
 }
 return (num_element);
 }
