@@ -11,6 +11,8 @@
  * @len: length of the string.
  * @next: points to next node in list.
  */
+
+
 struct list_s
 {
 char *str;
