@@ -22,7 +22,7 @@ if (!array || !cmp)
 
 for (i = 0; i < size; i++)
 {
-if (p(array[i] && array[i] != 0)
+if (p(array[i]) && array[i] != 0)
 	break;
 if (i == size - 1)
 	return (-1);

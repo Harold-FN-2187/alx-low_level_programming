@@ -12,7 +12,7 @@ int (*get_op_func(char *s))(int, int);
  * @op : operator
  * @f: function that will be used
  */
-typdef struct op
+typedef struct op
 {
 char *op;
 int (*f)(int a, int b);
